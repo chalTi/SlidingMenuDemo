@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+
+    >
+    <com.example.wentongwang.slidingmenudemo.SlidingMenu
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/mSliding">
+
+        <!--左侧菜单-->
+        <include layout="@layout/left_layout"/>
+
+        <!--右侧-->
+        <include layout="@layout/content"/>
+        <!--右侧菜单-->
+        <include layout="@layout/right_layout"/>
+        </com.example.wentongwang.slidingmenudemo.SlidingMenu>
+
+
+
+</RelativeLayout>
